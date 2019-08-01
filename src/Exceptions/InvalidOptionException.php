@@ -4,12 +4,11 @@
  */
 declare(strict_types=1);
 
-namespace MiroslavSapic\PHPZip\Handler;
+namespace MiroslavSapic\PHPZip\Exceptions;
+
+use Exception;
 
 /**
  * @author Miroslav Sapic
  */
-class ZipEntry
-{
-
-}
+class InvalidOptionException extends Exception { }
